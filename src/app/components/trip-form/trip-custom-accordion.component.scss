@@ -1,0 +1,12 @@
+.section-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.section-icon {
+		transition: transform 0.1s ease-in;
+		&.open {
+			transform: rotate(180deg);
+		}
+	}
+}
